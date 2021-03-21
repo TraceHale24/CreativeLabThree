@@ -63,7 +63,7 @@ let equipment = [{
     category: "Firestarters",
     price: "$3.95",
     details: "Cool Name, For Fire",
-    image: 'firestarter.png',
+    image: 'firestarter.jpg',
     link: 'https://www.rei.com/product/619851/lightning-nugget-firestarters'
 
   },

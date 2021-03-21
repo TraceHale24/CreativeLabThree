@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Equipment from "../views/Equipment.vue"
 import About from '../views/About.vue'
+import AddHike from '../views/AddHike.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
+  },
+  {
+    path: '/addHike',
+    name: 'AddHike',
+    component:AddHike
   }
 ]
 

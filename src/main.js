@@ -6,7 +6,8 @@ import gear from './equipment-data.js'
 
 let data = {
   hikes : mock,
-  equipment : gear
+  equipment : gear,
+  currentHike : null
 }
 
 new Vue({
